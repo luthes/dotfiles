@@ -63,7 +63,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", white, "-nf", lightGray, "-sb", black, "-sf", darkGray, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", darkGray, "-nf", lightGray, "-sb", lightGray, "-sf", darkGray, NULL };
 static const char *termcmd[]  = { "gnome-terminal", NULL };
 
 static Key keys[] = {

@@ -39,7 +39,6 @@ do
 	feh --bg-fill http://www.lutherlabs.com/files/hex-000097.png
 done &
 
-#xautolock -time 2 -locker slock &
 gnome-terminal &
 chromium-browser &
 

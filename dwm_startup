@@ -37,6 +37,7 @@ done &
 while true
 do
 	feh --bg-fill /home/steven/Pictures/hex.png
+	feh --bg-fill http://www.lutherlabs.com/files/hex-000097.png
 done &
 
 gnome-terminal &

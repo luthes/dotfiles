@@ -1,18 +1,12 @@
 #!/bin/bash
-# Taken from:
+# Mostly taken from:
 #	https://raw.github.com/kaihendry/Kai-s--HOME/master/.xinitrc
-#
-# for terminus font in Archlinux :(
-#
-# Todo
-# Add battery status :
-# 	upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage | something
-
+# TODO:  For Battery Status: Check which battery is discharging, only display that one.
 
 xset +fp /usr/share/fonts/local
 xset fp rehash
-
 xset -b # disable bell
+feh --bg-fill /home/Pictures/wallpaper.jpg
 
 while true
 do
@@ -20,24 +14,20 @@ do
 	LOCALTIME=$(date +%Z\:%Y-%m-%dT%H:%M)
 	OTHERTIME=$(TZ=America/Argentina/Buenos_Aires date +%Z\:%H:%M)
 	IP2=$(curl icanhazip.com)
-	IP=$(for i in `ip r`; do echo $i; done | grep -A 1 src | tail -n1) # can get confused if you use vmware
-	TEMP="$(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000))C"
-	BAT2="$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage)"
-
+	IP=$(for i in `ip r`; do echo $i; done | grep -A 1 src | tail -n1)
+	TEMP=$(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000))
 	if acpi -a | grep off-line > /dev/null
 	then
-		BAT="Bat. $(acpi -b | awk '{ print $4 " " $5 }' | tr -d ',')"
-		xsetroot -name "WAN:$IP2 LAN:$IP $BAT $VOL $TEMP $LOCALTIME $OTHERTIME"
+#TODO - Add check for discharging battery, only display that battery.
+		BAT1=$(acpi -b | grep "Battery 0" | awk '{ print $4 }' | sed 's/,//')
+		DUR1=$(acpi -b | grep "Battery 0" | awk '{ print $5 }')
+		BAT2=$(acpi -b | grep "Battery 1" | awk '{ print $4 }' | sed 's/,//')
+		DUR2=$(acpi -b | grep "Battery 1" | awk '{ print $5 }')
+		xsetroot -name "WAN:$IP2 LAN:$IP B1:$BAT1 B2:$BAT2 $VOL $TEMP $LOCALTIME"
 	else
-		xsetroot -name "WAN:$IP2 LAN:$IP ${BAT2:25:4} $VOL $TEMP $LOCALTIME $OTHERTIME"
+		xsetroot -name "WAN:$IP2 LAN:$IP ${BAT2:25:4} $VOL $TEMP $LOCALTIME"
 	fi
 	sleep 20s
-done &
-
-while true
-do
-	feh --bg-fill /home/steven/Pictures/hex.png
-	feh --bg-fill http://www.lutherlabs.com/files/hex-000097.png
 done &
 
 gnome-terminal &

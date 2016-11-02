@@ -1,12 +1,11 @@
 #!/bin/bash
 # Mostly taken from:
 #	https://raw.github.com/kaihendry/Kai-s--HOME/master/.xinitrc
-# TODO:  For Battery Status: Check which battery is discharging, only display that one.
 
 xset +fp /usr/share/fonts/local
 xset fp rehash
 xset -b # disable bell
-feh --bg-fill /home/Pictures/wallpaper.jpg
+feh --bg-fill /home/f1nch/Pictures/wallpaper.jpg
 
 while true
 do
@@ -18,7 +17,7 @@ do
 	TEMP=$(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000))
 	if acpi -a | grep off-line > /dev/null
 	then
-#TODO - Add check for discharging battery, only display that battery.
+		#TODO - Add check for discharging battery, only display that battery.
 		BAT1=$(acpi -b | grep "Battery 0" | awk '{ print $4 }' | sed 's/,//')
 		DUR1=$(acpi -b | grep "Battery 0" | awk '{ print $5 }')
 		BAT2=$(acpi -b | grep "Battery 1" | awk '{ print $4 }' | sed 's/,//')

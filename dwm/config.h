@@ -2,27 +2,26 @@
 /* Inlcude Statements for patches */
 #include "gaplessgrid.c"
 
-
-
 /* appearance */
-static const unsigned int borderpx  = 1;         /* border pixel of windows */
+static const unsigned int borderpx  = 3;         /* border pixel of windows */
 static const unsigned int snap      = 2;         /* snap pixel */
 static const int showbar            = 1;         /* 0 means no bar */
 static const int topbar             = 1;         /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#222222";
 static const char black[]           = "#000000";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
+static const char white[]	    = "#ffffff";
+static const char lightGray[]       = "#999999";
+static const char darkGray[]        = "#111111";
+static const char midGray[]	    = "#484848";
 static const char borderColor[]     = "#4c4c4c";
 static const char *colors[SchemeLast][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray4, black, col_gray2 },
-	[SchemeSel] =  { col_gray4, borderColor,  borderColor },
+	[SchemeNorm] = { midGray, darkGray, lightGray},
+	[SchemeSel] =  { white, darkGray, lightGray},
 };
 static const unsigned int gappx     = 6;        /* gap pixel between windows */
+
 /* tagging */
 static const char *tags[] = { "T1", "T2", "Web", "4", "5", "6", "7", "8", "Spotify" };
 
@@ -64,20 +63,11 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", black, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", darkGray, "-nf", lightGray, "-sb", lightGray, "-sf", darkGray, NULL };
 static const char *termcmd[]  = { "gnome-terminal", NULL };
-
-/* Volume Controls */
-static const char *upvol[]   = { "amixer", "-D", "pulse", "sset", "Master", "+3%"}
-static const char *downvol[]   = { "amixer", "-D", "pulse", "sset", "Master", "-3%"}
-static const char *mutevol[]   = { "amixer", "-D", "pulse", "sset", "Master", "0%"}
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_F1,     spawn,          {.v = mutevol } },
-	{ MODKEY,                       XK_F3,     spawn,          {.v = upvol } },
-	{ MODKEY,                       XK_F2,     spawn,          {.v = downvol } },
-	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },

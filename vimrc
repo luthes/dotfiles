@@ -8,3 +8,6 @@ nnoremap <C-H> <C-W><C-H>
 "Set split options to open on the bottom right.
 set splitbelow
 set splitright
+syntax on
+highlight ColorColumn ctermbg=Darkred
+set colorcolumn=80

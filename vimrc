@@ -11,3 +11,7 @@ set splitright
 syntax on
 highlight ColorColumn ctermbg=Darkred
 set colorcolumn=80
+if $TERM == "xterm-256color"
+  set t_Co=256
+endif
+colorscheme desert

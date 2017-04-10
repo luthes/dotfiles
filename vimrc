@@ -15,3 +15,6 @@ if $TERM == "xterm-256color"
   set t_Co=256
 endif
 colorscheme desert
+set ruler
+set number
+highlight LineNr ctermfg=46

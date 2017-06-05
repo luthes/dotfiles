@@ -18,3 +18,4 @@ colorscheme desert
 set ruler
 set number
 highlight LineNr ctermfg=46
+set scrolloff=15

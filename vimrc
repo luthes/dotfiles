@@ -1,3 +1,24 @@
+" Use Vundle
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-sensible'
+Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+" End Vundle
+
 " Testing out Vim Options... "
 " Move between Tabs
 nnoremap <C-J> <C-W><C-J>
@@ -19,10 +40,3 @@ set ruler
 set number
 highlight LineNr ctermfg=46
 set scrolloff=15
-
-" Vim-plug
-call plug#begin()
-Plug 'tpope/vim-sensible'
-Plug 'Glench/Vim-Jinja2-Syntax'
-Plug 'scrooloose/nerdtree'
-call plug#end() 

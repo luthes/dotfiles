@@ -2,6 +2,11 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" To install Vundle on a new machine:
+"
+" git clone https://github.com/VundleVim/Vundle.vim.git
+" ~/.vim/vundle/Vundle.vim
+"
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()

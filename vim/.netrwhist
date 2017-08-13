@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/luths010/.dotfiles/vim/plugins/Vim-Jinja2-Syntax'
 let g:netrw_dirhist_2='/Users/luths010/.dotfiles/vim/plugins/Vim-Jinja2-Syntax/ftdetect'
 let g:netrw_dirhist_3='/Users/luths010/.dotfiles/vim/plugins'
 let g:netrw_dirhist_4='/Users/luths010/.dotfiles/vim/plugins/Vim-Jinja2-Syntax'
+let g:netrw_dirhist_5='/home/steven/.dotfiles/vim/bundle/Vundle.vim'

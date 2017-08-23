@@ -4,6 +4,7 @@
 
 #Work Aliases
 alias overrides='ansible-playbook -i /Users/luths010/temp_overrides/inventory /Users/luths010/temp_overrides/mpr_overrides.yml -vv'
+alias pwgen='pwgen -cnys 16'
 
 # If not running interactively, don't do anything
 case $- in

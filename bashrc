@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#Work Aliases
+alias overrides='ansible-playbook -i /Users/luths010/temp_overrides/inventory /Users/luths010/temp_overrides/mpr_overrides.yml -vv'
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -62,6 +65,9 @@ else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
+
+# Ansible Fancy Output
+export ANSIBLE_STDOUT_CALLBACK=debug
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in

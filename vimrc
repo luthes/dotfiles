@@ -3,9 +3,13 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " To install Vundle on a new machine:
-"
 " git clone https://github.com/VundleVim/Vundle.vim.git
 " ~/.vim/vundle/Vundle.vim
+"
+" To install new plugins, add the Plugin line below,
+" then run: 
+" :source %
+" :PluginInstall
 "
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -40,7 +44,7 @@ set colorcolumn=80
 if $TERM == "xterm-256color"
   set t_Co=256
 endif
-colorscheme desert
+" colorscheme desert
 set ruler
 set number
 highlight LineNr ctermfg=46

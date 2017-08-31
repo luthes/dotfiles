@@ -2,9 +2,16 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-#Work Aliases
+#Work Stuff
 alias overrides='ansible-playbook -i /Users/luths010/temp_overrides/inventory /Users/luths010/temp_overrides/mpr_overrides.yml -vv'
 alias pwgen='pwgen -cnys 16'
+alias mprreport='ssh oldprod-edge './mpr_report.sh''
+
+export ORACLE_HOME=$HOME/Applications/instantclient_12_1/
+export DYLD_LIBRARY_PATH=$ORACLE_HOME:$DYLD_LIBRARY_PATH
+export ORACLE_HOME=$HOME/Applications/instantclient_12_1
+export DYLD_LIBRARY_PATH=$ORACLE_HOME
+export LD_LIBRARY_PATH=$ORACLE_HOME
 
 # If not running interactively, don't do anything
 case $- in

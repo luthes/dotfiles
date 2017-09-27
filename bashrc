@@ -12,6 +12,7 @@ export DYLD_LIBRARY_PATH=$ORACLE_HOME:$DYLD_LIBRARY_PATH
 export ORACLE_HOME=$HOME/Applications/instantclient_12_1
 export DYLD_LIBRARY_PATH=$ORACLE_HOME
 export LD_LIBRARY_PATH=$ORACLE_HOME
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # If not running interactively, don't do anything
 case $- in
@@ -106,6 +107,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias makenotes='/Users/Steven/projects/makenotes/makenotes.sh'
+alias vim='nvim'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

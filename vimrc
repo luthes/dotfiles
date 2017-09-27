@@ -23,6 +23,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'pearofducks/ansible-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

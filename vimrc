@@ -21,12 +21,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'Glench/Vim-Jinja2-Syntax'
-Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'pearofducks/ansible-vim'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-notes'
 Plugin 'AlessandroYorba/Alduin'
+Plugin 'vimwiki/vimwiki'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -55,5 +53,9 @@ set scrolloff=15
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin
 
-" Vim Notes directory, can specify multiple, comma-seperated
-let g:notes_directories = ['~/Notes']
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" Vim Wiki Settings
+filetype plugin on

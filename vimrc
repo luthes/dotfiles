@@ -54,3 +54,6 @@ highlight LineNr ctermfg=46
 set scrolloff=15
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin
+
+" Vim Notes directory, can specify multiple, comma-seperated
+let g:notes_directories = ['~/Notes']

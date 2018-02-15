@@ -4,8 +4,8 @@ import os
 import subprocess
 import sys
 
-# This requires Git to be installed through your package manager. 
-# 
+# This will install required packages through the package manager, clone
+# dotfiles repos, as well as those required for Vim plugins.
 # 
 #   luthes/dotifles ~/.dotfiles
 #       Symlink the following:
@@ -14,11 +14,12 @@ import sys
 #            vim ~/.vim
 #   VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #   xolox/vim-misc - This is in the dot files vim directory 
-#   xolox/vim-notes - This is in the dit files vim directory
+#   xolox/vim-notes - This is in the dot files vim directory
 
-#-----------Helper Functions to check OS and install packages-----------
+#-----------Helper Functions to check OS and install packages
 def decode_utf8(string):
     return string.decode("utf-8")
+
 
 def check_package(package):
     try:
@@ -32,12 +33,14 @@ def check_package(package):
 
     return package_returned
 
+
 def install_package(package_manager, package):
     command = package_manager + " install " + package + " -y"
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
     return
     
+
 def check_packages():
     os = ''
     package_manager = ''
@@ -79,12 +82,12 @@ def check_packages():
     return package_manager
 
 
-
 # -------------- Retrieve and install dotfiles, vim plugins
 def clone_repos(home_dir):
     try:
        print("Creating Dotfiles Repo")
-       git.Repo.clone_from("https://github.com/luthes/dotfiles", home_dir + "/.dotfiles/")
+       git.Repo.clone_from("https://github.com/luthes/dotfiles",\
+               home_dir + "/.dotfiles/")
        print("Creating Dotfiles Repo - " + home_dir + "/.dotfiles/")
     except git.GitCommandError as exc:
         print("Dotfiles repo already exists, skipping...")
@@ -92,12 +95,14 @@ def clone_repos(home_dir):
     
     try:
         print("Creating Vundle Repo")
-        Repo.clone_from("https://github.com/VundleVim/Vundle.vim.git", home_dir + "/.vim/bundle/Vundle.vim")
+        Repo.clone_from("https://github.com/VundleVim/Vundle.vim.git",\
+                home_dir + "/.vim/bundle/Vundle.vim")
         print("Creating Vundle Repo - " + home_dir + "/.vim/bundle/Vundle.vim")
     except git.GitCommandError as exc:
         print("Vundle repo already exists, skipping...")
         pass
     
+
 def create_symlinks(home_dir):
     try:
         print("Creating vimrc symlink - " + home_dir + "/.vimrc")
@@ -115,17 +120,20 @@ def create_symlinks(home_dir):
         print("Symlink for tmux.conf already exists, skipping...")
         pass
 
+
 def install_vim_plugins(home_dir):
     # Run Vim command to install plugins
     print("Running Vim command to install Vim plugins, " + command)
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
 
+
 def main():
     #Expand Home Directory
     home_dir = os.path.expanduser('~')
     command = "vim +PluginInstall +qall"
     check_packages()
+    clone_repos(home_dir)
 
 
 if __name__ == '__main__':

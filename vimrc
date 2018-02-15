@@ -26,6 +26,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
+Plugin 'AlessandroYorba/Alduin'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -47,8 +48,9 @@ set colorcolumn=80
 if $TERM == "xterm-256color"
   set t_Co=256
 endif
-" colorscheme desert
 set ruler
 set number
 highlight LineNr ctermfg=46
 set scrolloff=15
+let g:alduin_Shout_Become_Ethereal = 1
+colorscheme alduin

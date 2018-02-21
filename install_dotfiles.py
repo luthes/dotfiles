@@ -118,6 +118,15 @@ def create_symlinks(home_dir):
         print("Creating Dotfiles Repo")
     except FileExistsError:
         print("Symlink for tmux.conf already exists, skipping...")
+        print("Symlink for tmux already exists, skipping...")
+        pass
+
+    try:
+        print("Creating bashrc symlink - " + home_dir + "/.bashrc")
+        os.symlink(home_dir + "/.dotfiles/bashrc", home_dir + "/.bashrc")
+        print("Creating Dotfiles Repo")
+    except FileExistsError:
+        print("Symlink for bashrc already exists, skipping...")
         pass
 
 
@@ -134,6 +143,7 @@ def main():
     command = "vim +PluginInstall +qall"
     check_packages()
     clone_repos(home_dir)
+    create_symlinks("/home/steven")
 
 
 if __name__ == '__main__':

@@ -60,6 +60,24 @@ def check_packages():
         output, error = process.communicate()
         print(output)
 
+        brew_package = check_package("brew")
+        git_package = check_package("git")
+        vim_package = check_package("vim")
+
+        if brew_package is "":
+            print("Brew not found, installing now.")
+            # This will need to be different, run the Ruby script?
+            # Ruby comes installed natively on Mac.
+            install_package(brew_package, "git")
+
+        if git_package is "":
+            print("Git not found, installing now.")
+            install_package(brew_package, "git")
+
+        if vim_package is "":
+            print("Vim not found, installing now.")
+            install_package(brew_package, "vim")
+
     #Linux
     #Check for apt/yum
     if os == "linux" or os == "linux2":

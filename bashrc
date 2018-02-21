@@ -4,8 +4,10 @@
 
 #Work Stuff
 alias overrides='ansible-playbook -i /Users/luths010/temp_overrides/inventory /Users/luths010/temp_overrides/mpr_overrides.yml -vv'
-alias pwgen='pwgen -cnys 16'
+#alias pwgen='pwgen -cnys 16'
 alias mprreport='ssh oldprod-edge './mpr_report.sh''
+alias gitdiff="git diff $(git log | head -n1 | awk '{ print $2 }')^!"
+alias print="lp -d 10.195.51.15"
 
 export ORACLE_HOME=$HOME/Applications/instantclient_12_1/
 export DYLD_LIBRARY_PATH=$ORACLE_HOME:$DYLD_LIBRARY_PATH

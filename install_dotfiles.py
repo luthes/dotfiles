@@ -53,6 +53,9 @@ def check_packages():
 
     # Mac
     # Check for Brew
+    # TODO: This doesn't really do anything right now.
+    # If Brew is not installed, we should first install it and then check
+    # dependent repos, ie git, vim, tmux, additionally install iterm.
     if os == "darwin":
         command = "which brew"
         print("MacOS detected")
@@ -80,6 +83,7 @@ def check_packages():
 
     #Linux
     #Check for apt/yum
+    # TODO: This should check for RH/CentOS systems with Yum package manager
     if os == "linux" or os == "linux2":
         apt_package = check_package("apt")
         git_package = check_package("git")
@@ -157,6 +161,7 @@ def install_vim_plugins(home_dir):
 
 def main():
     #Expand Home Directory
+    # We should check if system is Mac or Linux, and then branch from there.
     home_dir = os.path.expanduser('~')
     command = "vim +PluginInstall +qall"
     check_packages()

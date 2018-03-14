@@ -9,6 +9,14 @@ alias mprreport='ssh oldprod-edge './mpr_report.sh''
 alias gitdiff="git diff $(git log | head -n1 | awk '{ print $2 }')^!"
 alias print="lp -d 10.195.51.15"
 
+git() {
+         if [[ $@ == "log" ]]; then
+           command git log --graph --pretty=format:'%h - %an -%d %s (%cr)' | vim -R -c 'set filetype=git nowrap' -
+         else
+           command git "$@"
+         fi
+       }
+
 export ORACLE_HOME=$HOME/Applications/instantclient_12_1/
 export DYLD_LIBRARY_PATH=$ORACLE_HOME:$DYLD_LIBRARY_PATH
 export ORACLE_HOME=$HOME/Applications/instantclient_12_1

@@ -152,20 +152,26 @@ def create_symlinks(home_dir):
         pass
 
 
-def install_vim_plugins(home_dir):
+def install_vim_plugins():
     # Run Vim command to install plugins
-    print("Running Vim command to install Vim plugins, " + command)
-    process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-    output, error = process.communicate()
+    try:
+        command = "vim +VundleInstall +qall"
+        print("Running Vim command to install Vim plugins, " + command)
+        process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+        output, error = process.communicate()
+    except:
+        print("Something went wrong. Try running the command manually:"
+                + command)
 
 
 def main():
     #Expand Home Directory
     # We should check if system is Mac or Linux, and then branch from there.
     home_dir = os.path.expanduser('~')
-    command = "vim +PluginInstall +qall"
     check_packages()
     clone_repos(home_dir)
+    install_vim_plugins()
+
     create_symlinks("/home/steven")
 
 

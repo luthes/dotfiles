@@ -77,10 +77,10 @@ nnoremap <C-H> <C-W><C-H>
 " Spaces as dots
 set list
 set listchars=
-set listchars+=space:·
-set listchars+=trail:·
-set listchars+=extends:»
-set listchars+=precedes:«
+set listchars+=space:Â·
+set listchars+=trail:Â·
+set listchars+=extends:Â»
+set listchars+=precedes:Â«
 
 " Vimwiki Options
 let g:vimwiki_list = [{
@@ -96,7 +96,7 @@ let g:vimwiki_list = [{
 " Really Nice Colors
 set termguicolors
 
-let @r = 'dwxwxxi=hli wwxg$xx0dwiaws_secret €kb_access_key j0dwxwxxi=€kb =wxg$$xx0dwiaws_sesi€kbss€kbion_token j0dwdd0dwxdwxiaws_access_key_id €ülr=llxg$xj'
+let @r = 'dwxwxxi=hli wwxg$xx0dwiaws_secret Â€kb_access_key j0dwxwxxi=Â€kb =wxg$$xx0dwiaws_sesiÂ€kbssÂ€kbion_token j0dwdd0dwxdwxiaws_access_key_id Â€Ã¼lr=llxg$xj'
 
 "Set split options to open on the bottom right.
 set splitbelow

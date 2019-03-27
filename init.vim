@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " ~/.config/nvim
 call plug#begin('~/local/share/nvim/plugged')
 Plug 'tpope/vim-sensible'
@@ -18,9 +20,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'b4b4r07/vim-ansible-vault'
 call plug#end()
 
-" Set encoding for the listchars
-set encoding=utf-8
-scriptencoding utf-8
+set encoding&
 
 " Minimal Configuration
 set nocompatible
@@ -29,7 +29,8 @@ filetype plugin indent on
 
 autocmd FileType crontab setlocal nowritebackup
 
-let g:python3_host_prog = '/usr/bin/python3'
+let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python2_host_prog = '/usr/local/bin/python2'
 autocmd VimEnter * NERDTree
 
 " Status Line

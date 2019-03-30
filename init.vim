@@ -1,7 +1,6 @@
-set encoding=utf-8
-
 " ~/.config/nvim
 call plug#begin('~/local/share/nvim/plugged')
+Plug 'jpalardy/vim-slime'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
@@ -20,7 +19,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'b4b4r07/vim-ansible-vault'
 call plug#end()
 
-set encoding&
+" Set encoding for the listchars
+set encoding=utf-8
+scriptencoding utf-8
 
 " Minimal Configuration
 set nocompatible
@@ -29,8 +30,7 @@ filetype plugin indent on
 
 autocmd FileType crontab setlocal nowritebackup
 
-let g:python3_host_prog = '/usr/local/bin/python3'
-let g:python2_host_prog = '/usr/local/bin/python2'
+let g:python3_host_prog = '/usr/bin/python3'
 autocmd VimEnter * NERDTree
 
 " Status Line
@@ -73,6 +73,11 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Vim Slime
+let g:slime_target = "tmux"
+let g:slime_paste_file = "$HOME/.slime_paste"
+let g:slime_default_config = {"socket_name": "default", "target_pane": "{right-of}"}
 
 
 " Spaces as dots

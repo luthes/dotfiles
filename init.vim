@@ -6,18 +6,20 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'pearofducks/ansible-vim'
-Plug 'vimwiki/vimwiki'
 Plug 'godlygeek/tabular'
 Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'hashivim/vim-terraform'
 Plug 'Shougo/deoplete.nvim'
 Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
 Plug 'neomake/neomake'
 Plug 'dracula/vim'
 Plug 'nvie/vim-flake8'
 Plug 'scrooloose/nerdtree'
 Plug 'b4b4r07/vim-ansible-vault'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline-themes/vim-airline-themes'
 call plug#end()
 
 " Set encoding for the listchars
@@ -33,6 +35,18 @@ autocmd FileType crontab setlocal nowritebackup
 
 let g:python3_host_prog = '/usr/local/bin/python3'
 autocmd VimEnter * NERDTree
+
+" set leader
+let mapleader = ";"
+
+" Copy and paste to system clipboard
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
 
 " Status Line
 set statusline=%t       "tail of the filename
@@ -88,17 +102,7 @@ set listchars+=space:·
 set listchars+=trail:·
 set listchars+=extends:»
 set listchars+=precedes:«
-
-" Vimwiki Options
-let g:vimwiki_list = [{
-  \ 'path': '$HOME/vimwiki',
-  \ 'template_path': '$HOME/vimwiki/templates',
-  \ 'template_default': 'index',
-  \ 'template_ext': '.html',
-  \ 'auto_toc': 1,
-  \ 'auto_export': 1}]
-"let g:vimwiki_list = [{'path': '~/markdown/',
-"                     \ 'syntax': 'markdown', 'ext': '.md'}]
+set listchars+=tab:»»
 
 " Really Nice Colors
 set termguicolors

@@ -12,6 +12,7 @@ export ZSH="/Users/a212754484/.oh-my-zsh"
 myapps_proxy() {
   env https_proxy=http://127.0.0.1:31114 $*
 }
+
  
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -77,6 +78,7 @@ plugins=(
   osx
   aws
   docker
+  docker-compose
   kubectl
   )
 
@@ -115,3 +117,4 @@ bindkey -e
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias mktemp="gmktemp"

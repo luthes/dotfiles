@@ -19,7 +19,6 @@ Plug 'nvie/vim-flake8'
 Plug 'scrooloose/nerdtree'
 Plug 'b4b4r07/vim-ansible-vault'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline-themes/vim-airline-themes'
 call plug#end()
 
 " Set encoding for the listchars
@@ -38,6 +37,9 @@ autocmd VimEnter * NERDTree
 
 " set leader
 let mapleader = ";"
+
+" use files directory as path
+autocmd BufEnter * lcd %:p:h
 
 " Copy and paste to system clipboard
 vmap <Leader>y "+y

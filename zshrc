@@ -1,18 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:~/.local/bin:$HOME/go/bin:$PATH
 
 # Go Path
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/a212754484/.oh-my-zsh"
-
-# GE Networking Garbage
-myapps_proxy() {
-  env https_proxy=http://127.0.0.1:31114 $*
-}
-
+export ZSH="/home/steven/.oh-my-zsh"
  
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -106,7 +100,6 @@ fi
 # Emacs Mode
 bindkey -e
 # VI Mode
-#bindkey -v
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -117,4 +110,4 @@ bindkey -e
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
-alias mktemp="gmktemp"
+alias vs="source $PWD/.venv/bin/activate"

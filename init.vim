@@ -1,4 +1,9 @@
 " ~/.config/nvim
+if empty(glob('~/.config/nvim/site/autoload/plug.vim'))
+  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  "autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 call plug#begin('~/local/share/nvim/plugged')
 Plug 'jpalardy/vim-slime'
 Plug 'tpope/vim-sensible'
@@ -11,8 +16,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'hashivim/vim-terraform'
 Plug 'Shougo/deoplete.nvim'
-Plug 'Shougo/neosnippet.vim'
-Plug 'Shougo/neosnippet-snippets'
+Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'neomake/neomake'
 Plug 'dracula/vim'
 Plug 'nvie/vim-flake8'
@@ -26,13 +30,17 @@ set encoding=utf-8
 scriptencoding utf-8
 
 " Minimal Configuration
+let mapleader = ";"
 set nocompatible
 syntax on
 filetype plugin indent on
 
 autocmd FileType crontab setlocal nowritebackup
 
-let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python3_host_prog = '/usr/bin/python3'
+let g:syntastic_python_checkers=['pylint'] 
+let g:syntastic_python_python_exec = 'python' 
+let g:syntastic_python_pylint_exe = 'python -m pylint'
 autocmd VimEnter * NERDTree
 
 " set leader
@@ -105,6 +113,31 @@ set listchars+=trail:·
 set listchars+=extends:»
 set listchars+=precedes:«
 set listchars+=tab:»»
+
+" Clipboard Commands
+" https://www.reddit.com/r/neovim/comments/3fricd/easiest_way_to_copy_from_neovim_to_system/ctrru3b/
+" " Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
+" " Paste from clipboard
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
+
+" Vimwiki Options
+let g:vimwiki_list = [{
+  \ 'path': '$HOME/vimwiki',
+  \ 'template_path': '$HOME/vimwiki/templates',
+  \ 'template_default': 'index',
+  \ 'template_ext': '.html',
+  \ 'auto_toc': 1,
+  \ 'auto_export': 1}]
+"let g:vimwiki_list = [{'path': '~/markdown/',
+"                     \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Really Nice Colors
 set termguicolors

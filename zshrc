@@ -63,13 +63,15 @@ ZSH_THEME="bira"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  docker
+  docker-compose
   git
   terraform
   osx
   aws
-  docker
-  docker-compose
   kubectl
+  helm
+  virtualenv
   )
 
 source $ZSH/oh-my-zsh.sh
@@ -107,3 +109,7 @@ bindkey -e
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias vs="source $PWD/.venv/bin/activate"
+alias mktemp="gmktemp"
+
+# fpath+=($ZSH/plugins/docker)
+# autoload -U compinit && compinit

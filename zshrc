@@ -110,7 +110,7 @@ bindkey -e
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
-alias vs="source $PWD/.venv/bin/activate"
+alias venv="source $PWD/.venv/bin/activate"
 alias mktemp="gmktemp"
 
 # fpath+=($ZSH/plugins/docker)

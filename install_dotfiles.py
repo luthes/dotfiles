@@ -85,7 +85,7 @@ def check_packages():
     #Check for apt/yum
     # TODO: This should check for RH/CentOS systems with Yum package manager
     if os == "linux" or os == "linux2":
-        apt_package = check_package("apt")
+        apt_package = check_package("dnf")
         git_package = check_package("git")
         vim_package = check_package("vim")
         
@@ -155,7 +155,7 @@ def create_symlinks(home_dir):
 def install_vim_plugins():
     # Run Vim command to install plugins
     try:
-        command = "vim +VundleInstall +qall"
+        command = "nvim +VundleInstall +qall"
         print("Running Vim command to install Vim plugins, " + command)
         process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
         output, error = process.communicate()
@@ -172,7 +172,7 @@ def main():
     clone_repos(home_dir)
     install_vim_plugins()
 
-    create_symlinks("/home/steven")
+    create_symlinks("/home/zero")
 
 
 if __name__ == '__main__':

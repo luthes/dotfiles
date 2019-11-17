@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:~/.local/bin:$HOME/go/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:~/.local/bin:$HOME/go/bin:$PATH
+export PATH=/bin:/home/zero/.local/bin:/home/zero/bin:/home/zero/go/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/share/Modules/bin:/var/lib/snapd/snap/bin:/home/zero/Projects/terraform-lsp
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -74,6 +75,7 @@ plugins=(
   kubectl
   helm
   virtualenv
+  zsh-autosuggestions
   )
 
 source $ZSH/oh-my-zsh.sh

@@ -19,6 +19,9 @@ Plug 'google/yapf'
 Plug 'dense-analysis/ale'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 " Set encoding for the listchars
@@ -170,7 +173,11 @@ let g:vimwiki_list = [{
 "                     \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Really Nice Colors
-set termguicolors
+let g:airline_powerline_fonts=1
+let g:airline_theme='dracula'
+
+" Open NerdTree
+map <silent> <C-n> :NERDTreeFocus<CR>
 
 " Python Stuff
 " Status Line Linter
@@ -209,7 +216,6 @@ let g:ale_fix_on_save = 0
 set splitbelow
 set splitright
 syntax on
-highlight ColorColumn ctermbg=Darkred
 set colorcolumn=80
 if $TERM == "xterm-256color"
   set t_Co=256

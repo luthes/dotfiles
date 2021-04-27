@@ -4,20 +4,20 @@ MODE=$(echo $1 | awk '{ print tolower($0) }')
 
 if [ $MODE == "work" ]; then
   echo "Work"
-  xrandr --output DP-1 --mode 1920x1080 --pos 1080x420 \
-    --output DP-2 --mode 1920x1080 --pos 3000x420 \
-    --output HDMI-2 --mode 1920x1080 --pos 0x0
+  xrandr --output DP-2 --mode 1920x1080 --pos 1920x420\
+    --output HDMI-1 --mode 1920x1080 --pos 0x420 \
+    --output DP-1 --mode 1920x1080 --pos 3840x0
   nohup latte-dock --replace &
 elif [ $MODE == "play" ]; then
   echo "Play"
-  xrandr --output DP-1 --mode 3840x2160 --pos 1080x0 \
-    --output HDMI-2 --mode 1920x1080 --pos 0x120 \
-    --output DP-2 --mode 1920x1080 --pos 4920x540
+  xrandr --output DP-2 --mode 3840x2160 --pos 1080x0 \
+    --output DP-1 --mode 1920x1080 --pos 0x120 \
+    --output HDMI-1 --mode 1920x1080 --pos 4920x540
   nohup latte-dock --replace &
 else
   echo "Play"
-  xrandr --output DP-1 --mode 3840x2160 --pos 1080x0 \
-    --output HDMI-2 --mode 1920x1080 --pos 0x120 \
-    --output DP-2 --mode 1920x1080 --pos 4920x540
+  xrandr --output DP-2 --mode 3840x2160 --pos 1080x0 \
+    --output DP-1 --mode 1920x1080 --pos 0x120 \
+    --output HDMI-1 --mode 1920x1080 --pos 4920x540
   nohup latte-dock --replace &
 fi

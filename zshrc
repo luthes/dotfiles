@@ -1,11 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:~/.local/bin:$HOME/go/bin:$PATH
-export PATH=/bin:/home/zero/.local/bin:/home/zero/bin:/home/zero/go/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/share/Modules/bin:/var/lib/snapd/snap/bin:/home/zero/Projects/terraform-lsp:/var/lib/snapd/snap/bin
+export PATH=/bin:/home/steven/.local/bin:/home/steven/bin:/home/steven/go/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/share/Modules/bin:/var/lib/snapd/snap/bin:/home/steven/Projects/terraform-lsp:/var/lib/snapd/snap/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
-export GAUTH=$(gauth | sed -n 2p | awk '{ print $1 }')
+alias startx='ssh-agent startx'
+
+# export GAUTH=$(gauth | sed -n 2p | awk '{ print $1 }')
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -117,4 +120,4 @@ alias mktemp="gmktemp"
 alias aws-v="/Users/a212754484/Projects/dotfiles/aws-auth.sh"
 
 # fpath+=($ZSH/plugins/docker)
-# autoload -U compinit && compinit
+autoload -U compinit && compinit

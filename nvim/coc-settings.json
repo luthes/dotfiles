@@ -779,7 +779,17 @@
     },
     "coc.preferences.formatOnSaveFiletypes": {
       "type": "array",
-      "default": [],
+      "default": [
+        "css",
+        "markdown",
+        "javascript",
+        "graphql",
+        "html",
+        "yaml",
+        "json",
+        "python",
+        "sql"
+      ],
       "description": "Filetypes that should run format on save.",
       "items": {
         "type": "string"
@@ -935,7 +945,8 @@
     "terraform": {
       "command": "terraform-lsp",
       "filetypes": ["terraform", "tf", "hcl"],
-      "initializationOptions": {}
+      "initializationOptions": {},
+      "settings": {}
     },
     "golang": {
       "command": "gopls",

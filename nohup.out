@@ -1,0 +1,479 @@
+Icon theme "ubuntu-mono-dark" not found.
+Icon theme "Mint-X" not found.
+Icon theme "elementary" not found.
+/bin/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /bin/spotify)
+Gtk-Message: 16:40:23.867: Failed to load module "appmenu-gtk-module"
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+/proc/self/exe: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /proc/self/exe)
+
+(spotify:725166): libnotify-CRITICAL **: 17:43:11.993: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+Gtk-Message: 17:43:33.572: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:43:34.141: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:43:34.523: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:764569): Gtk-WARNING **: 17:43:34.633: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764569): Gtk-WARNING **: 17:43:34.633: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764569): Gtk-WARNING **: 17:43:34.633: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764569): Gtk-WARNING **: 17:43:34.633: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:764492): GLib-GIO-WARNING **: 17:43:34.903: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 17:43:35.158: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:764637): Gtk-WARNING **: 17:43:35.276: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764637): Gtk-WARNING **: 17:43:35.276: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764637): Gtk-WARNING **: 17:43:35.276: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764637): Gtk-WARNING **: 17:43:35.276: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 17:43:35.441: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:764681): Gtk-WARNING **: 17:43:35.547: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764681): Gtk-WARNING **: 17:43:35.547: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764681): Gtk-WARNING **: 17:43:35.547: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764681): Gtk-WARNING **: 17:43:35.548: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 17:43:36.441: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:764743): Gtk-WARNING **: 17:45:12.434: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764743): Gtk-WARNING **: 17:45:12.434: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764743): Gtk-WARNING **: 17:45:12.434: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:764743): Gtk-WARNING **: 17:45:12.434: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 17:45:12.511: Failed to load module "appmenu-gtk-module"
+
+(spotify:725166): libnotify-CRITICAL **: 17:46:12.697: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(/usr/lib/firefox/firefox:765684): Gtk-WARNING **: 17:48:35.079: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:765684): Gtk-WARNING **: 17:48:35.079: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:765684): Gtk-WARNING **: 17:48:35.079: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:765684): Gtk-WARNING **: 17:48:35.079: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 17:48:35.150: Failed to load module "appmenu-gtk-module"
+
+(spotify:725166): libnotify-CRITICAL **: 17:49:40.246: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 17:50:01.450: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+Icon theme "ubuntu-mono-dark" not found.
+Icon theme "Mint-X" not found.
+Icon theme "elementary" not found.
+Cyclic dependency detected between "file:///usr/lib/qt/qml/org/kde/kirigami.2/styles/org.kde.desktop.plasma/Units.qml" and "file:///usr/lib/qt/qml/org/kde/kirigami.2/styles/org.kde.desktop.plasma/Units.qml"
+Icon theme "ubuntu-mono-dark" not found.
+Icon theme "Mint-X" not found.
+Icon theme "elementary" not found.
+file:///usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/SubCategoryPage.qml:141:9: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+file:///usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/SubCategoryPage.qml:131:9: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+file:///usr/lib/qt/qml/org/kde/kirigami.2/private/RefreshableScrollView.qml:143:13: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+file:///usr/lib/qt/qml/org/kde/kirigami.2/private/RefreshableScrollView.qml:143:13: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Cyclic dependency detected between "file:///usr/lib/qt/qml/org/kde/kirigami.2/styles/org.kde.desktop.plasma/Units.qml" and "file:///usr/lib/qt/qml/org/kde/kirigami.2/styles/org.kde.desktop.plasma/Units.qml"
+QQmlEngine::setContextForObject(): Object already has a QQmlContext
+qt.svg: link #Nursery is undefined!
+
+(/usr/lib/firefox/firefox:767618): Gtk-WARNING **: 17:51:26.035: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:767618): Gtk-WARNING **: 17:51:26.035: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:767618): Gtk-WARNING **: 17:51:26.035: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:767618): Gtk-WARNING **: 17:51:26.035: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 17:51:26.122: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:769194): Gtk-WARNING **: 17:53:35.056: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:769194): Gtk-WARNING **: 17:53:35.056: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:769194): Gtk-WARNING **: 17:53:35.056: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:769194): Gtk-WARNING **: 17:53:35.056: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 17:53:35.127: Failed to load module "appmenu-gtk-module"
+
+(spotify:725166): libnotify-CRITICAL **: 17:53:46.202: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 17:53:55.847: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 17:57:55.494: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(/usr/lib/firefox/firefox:770497): Gtk-WARNING **: 18:00:02.959: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:770497): Gtk-WARNING **: 18:00:02.959: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:770497): Gtk-WARNING **: 18:00:02.959: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:770497): Gtk-WARNING **: 18:00:02.959: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 18:00:03.057: Failed to load module "appmenu-gtk-module"
+
+(spotify:725166): libnotify-CRITICAL **: 18:01:00.852: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(/usr/lib/firefox/firefox:774232): Gtk-WARNING **: 18:03:35.069: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:774232): Gtk-WARNING **: 18:03:35.070: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:774232): Gtk-WARNING **: 18:03:35.070: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:774232): Gtk-WARNING **: 18:03:35.070: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 18:03:35.159: Failed to load module "appmenu-gtk-module"
+
+(spotify:725166): libnotify-CRITICAL **: 18:29:52.544: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 18:33:24.295: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 18:37:53.794: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 18:40:43.398: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 18:44:56.146: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 18:49:15.598: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 18:51:34.396: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(/usr/lib/firefox/firefox:776185): Gtk-WARNING **: 19:10:09.566: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:776185): Gtk-WARNING **: 19:10:09.566: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:776185): Gtk-WARNING **: 19:10:09.566: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:776185): Gtk-WARNING **: 19:10:09.566: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 19:10:09.639: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:835662): Gtk-WARNING **: 19:11:35.421: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:835662): Gtk-WARNING **: 19:11:35.423: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:835662): Gtk-WARNING **: 19:11:35.423: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:835662): Gtk-WARNING **: 19:11:35.423: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 19:11:35.509: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:836424): Gtk-WARNING **: 19:11:42.151: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:836424): Gtk-WARNING **: 19:11:42.152: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:836424): Gtk-WARNING **: 19:11:42.158: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:836424): Gtk-WARNING **: 19:11:42.158: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 19:11:42.221: Failed to load module "appmenu-gtk-module"
+
+(spotify:725166): libnotify-CRITICAL **: 19:33:04.058: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 19:33:04.442: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 19:33:06.049: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+
+(spotify:725166): libnotify-CRITICAL **: 19:37:24.194: notify_notification_update: assertion 'summary != NULL && *summary != '\0'' failed
+Discord 0.0.11
+Gtk-Message: 19:48:25.223: Failed to load module "appmenu-gtk-module"
+Starting app.
+Starting updater.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/steven/.config/discord/0.0.11/modules
+[Modules] Module installed file path: /home/steven/.config/discord/0.0.11/modules/installed.json
+[Modules] Module download path: /home/steven/.config/discord/0.0.11/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[000:000] [857652] (audio_device_generic.cc:66): SetRecordingDevice: Not supported on this platform
+[000:001] [857652] (audio_device_generic.cc:61): SetPlayoutDevice: Not supported on this platform
+[Modules] Starting to install discord_krisp...
+[Modules] Fetching discord_krisp@0 from https://discord.com/api/modules/stable/discord_krisp/0
+[Modules] Streaming discord_krisp@0 to /home/steven/.config/discord/0.0.11/modules/pending/discord_krisp-0.zip
+[000:120] [857652] (audio_device_generic.cc:66): SetRecordingDevice: Not supported on this platform
+[000:121] [857652] (audio_device_generic.cc:61): SetPlayoutDevice: Not supported on this platform
+Error downloading with electron net: HTTP Error: Status Code 403
+Falling back to node net library..
+[Modules] Failed fetching module discord_krisp@0: Error: HTTP Error: Status Code 403
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+(electron) 'setBadgeCount function' is deprecated and will be removed. Please use 'badgeCount property' instead.
+[006:332] [857657] (audio_device_pulse_linux.cc:1855): Can't query latency
+[006:336] [857652] (audio_send_stream.cc:285): Failed to set up send codec state.
+[006:410] [857652] (audio_send_stream.cc:285): Failed to set up send codec state.
+[006:411] [857652] (audio_device_generic.cc:31): BuiltInAECIsAvailable: Not supported on this platform
+[006:500] [857652] (audio_send_stream.cc:285): Failed to set up send codec state.
+[110:429] [857656] (audio_device_pulse_linux.cc:1855): Can't query latency
+
+(/usr/lib/firefox/firefox:836704): Gtk-WARNING **: 20:09:27.180: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:836704): Gtk-WARNING **: 20:09:27.181: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:836704): Gtk-WARNING **: 20:09:27.181: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:836704): Gtk-WARNING **: 20:09:27.181: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:09:27.278: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:870760): Gtk-WARNING **: 20:09:43.920: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:870760): Gtk-WARNING **: 20:09:43.920: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:870760): Gtk-WARNING **: 20:09:43.920: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:870760): Gtk-WARNING **: 20:09:43.920: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:09:44.000: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:870917): Gtk-WARNING **: 20:13:35.095: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:870917): Gtk-WARNING **: 20:13:35.095: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:870917): Gtk-WARNING **: 20:13:35.095: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:870917): Gtk-WARNING **: 20:13:35.095: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:13:35.209: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:873177): Gtk-WARNING **: 20:13:39.974: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:873177): Gtk-WARNING **: 20:13:39.974: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:873177): Gtk-WARNING **: 20:13:39.974: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:873177): Gtk-WARNING **: 20:13:39.975: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:13:40.140: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:873298): Gtk-WARNING **: 20:18:35.097: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:873298): Gtk-WARNING **: 20:18:35.097: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:873298): Gtk-WARNING **: 20:18:35.097: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:873298): Gtk-WARNING **: 20:18:35.097: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:18:35.251: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:876305): Gtk-WARNING **: 20:20:58.244: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:876305): Gtk-WARNING **: 20:20:58.244: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:876305): Gtk-WARNING **: 20:20:58.244: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:876305): Gtk-WARNING **: 20:20:58.244: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:20:58.349: Failed to load module "appmenu-gtk-module"
+[2069:269] [857656] (audio_device_pulse_linux.cc:1855): Can't query latency
+
+(/usr/lib/firefox/firefox:876305): GLib-GIO-WARNING **: 20:35:55.685: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:877921): Gtk-WARNING **: 20:38:35.231: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:877921): Gtk-WARNING **: 20:38:35.231: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:877921): Gtk-WARNING **: 20:38:35.233: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:877921): Gtk-WARNING **: 20:38:35.233: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 20:38:35.599: Failed to load module "appmenu-gtk-module"
+[Modules] Checking for host updates.
+Error downloading with electron net: net::ERR_NETWORK_CHANGED
+Falling back to node net library..
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[3716:858] [857656] (audio_device_pulse_linux.cc:1855): Can't query latency
+[Child 870760, MediaDecoderStateMachine #1] WARNING: Decoder=7fe18b16c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SeekPromise> mozilla::MediaSourceTrackDemuxer::DoSeek(const mozilla::media::TimeUnit &): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[4928:124] [857656] (audio_device_pulse_linux.cc:1855): Can't query latency
+
+(/usr/lib/firefox/firefox:888585): Gtk-WARNING **: 21:36:52.545: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:888585): Gtk-WARNING **: 21:36:52.546: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:888585): Gtk-WARNING **: 21:36:52.546: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:888585): Gtk-WARNING **: 21:36:52.546: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 21:36:52.629: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:922132): Gtk-WARNING **: 21:40:15.644: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:922132): Gtk-WARNING **: 21:40:15.644: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:922132): Gtk-WARNING **: 21:40:15.644: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:922132): Gtk-WARNING **: 21:40:15.644: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 21:40:15.675: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:924406): Gtk-WARNING **: 21:42:04.839: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:924406): Gtk-WARNING **: 21:42:04.839: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:924406): Gtk-WARNING **: 21:42:04.839: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:924406): Gtk-WARNING **: 21:42:04.839: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 21:42:04.967: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:925680): Gtk-WARNING **: 21:42:30.236: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:925680): Gtk-WARNING **: 21:42:30.236: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:925680): Gtk-WARNING **: 21:42:30.236: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:925680): Gtk-WARNING **: 21:42:30.236: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 21:42:30.361: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:926085): Gtk-WARNING **: 21:42:53.790: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:926085): Gtk-WARNING **: 21:42:53.791: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:926085): Gtk-WARNING **: 21:42:53.791: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:926085): Gtk-WARNING **: 21:42:53.791: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[7471:935] [857656] (audio_device_pulse_linux.cc:1855): Can't query latency
+[7553:776] [857656] (audio_device_pulse_linux.cc:1855): Can't query latency
+[Child 870760, MediaDecoderStateMachine #1] WARNING: Decoder=7fe18b16d800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GFX1-]: GPU processed experienced too many device resets
+[Child 776185, AudioIPC0] WARNING: 7f034b373050 StateCallback() state 1 cubeb error: file /build/firefox/src/firefox-79.0/dom/media/AudioStream.cpp, line 666
+[Child 776185, AudioIPC0] WARNING: 7f0350c69bf0 StateCallback() state 2 cubeb error: file /build/firefox/src/firefox-79.0/dom/media/AudioStream.cpp, line 666
+[Child 776185, MediaDecoderStateMachine #1] WARNING: Decoder=7f034ba52800 [OnMediaSinkAudioError]: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 776185, MediaDecoderStateMachine #1] WARNING: Decoder=7f03518c5000 [OnMediaSinkAudioError]: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 776185, AudioIPC0] WARNING: 7f034f903e60 StateCallback() state 2 cubeb error: file /build/firefox/src/firefox-79.0/dom/media/AudioStream.cpp, line 666
+[Child 776185, AudioIPC0] WARNING: 7f034b374300 StateCallback() state 2 cubeb error: file /build/firefox/src/firefox-79.0/dom/media/AudioStream.cpp, line 666
+[Child 776185, MediaDecoderStateMachine #1] WARNING: Decoder=7f03514a0000 [OnMediaSinkAudioError]: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 776185, MediaDecoderStateMachine #1] WARNING: Decoder=7f034ba50000 [OnMediaSinkAudioError]: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 776185, AudioIPC0] WARNING: 7f034b373fc0 StateCallback() state 2 cubeb error: file /build/firefox/src/firefox-79.0/dom/media/AudioStream.cpp, line 666
+[Child 776185, MediaDecoderStateMachine #1] WARNING: Decoder=7f034f85b400 [OnMediaSinkAudioError]: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 922132, AudioIPC0] WARNING: 7fce975be050 StateCallback() state 1 cubeb error: file /build/firefox/src/firefox-79.0/dom/media/AudioStream.cpp, line 666
+[Child 922132, MediaDecoderStateMachine #1] WARNING: Decoder=7fcd0f289c00 [OnMediaSinkAudioError]: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x63001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA00003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA00003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x63001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA00003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA00003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x63001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x63001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB40023,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB40023,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x630015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x63001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB40023,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x36001A,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+Gdk-Message: 22:37:36.040: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+XIO:  fatal IO error 34 (Numerical result out of range) on X server ":0"
+      after 1014150 requests (1014150 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

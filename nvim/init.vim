@@ -6,6 +6,7 @@ if empty(glob('~/.config/nvim/site/autoload/plug.vim'))
 endif
 call plug#begin('~/local/share/nvim/plugged')
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'godlygeek/tabular'
 Plug 'hashivim/vim-terraform'
@@ -13,6 +14,11 @@ Plug 'dracula/vim'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go'
+Plug 'numirias/semshi'
+Plug 'google/yapf'
+Plug 'dense-analysis/ale'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Set encoding for the listchars
@@ -115,17 +121,20 @@ vmap <Leader>P "+P
 
 
 " Status Line
-set statusline=%t       "tail of the filename
+set statusline=^=%{coc#status()}                "tail of the filename
+set statusline=%t                               "tail of the filename
 set statusline+=[%{strlen(&fenc)?&fenc:'none'}, "file encoding
-set statusline+=%{&ff}] "file format
-set statusline+=%h      "help file flag
-set statusline+=%m      "modified flag
-set statusline+=%r      "read only flag
-set statusline+=%y      "filetype
-set statusline+=%=      "left/right separator
-set statusline+=%c,     "cursor column
-set statusline+=%l/%L   "cursor line/total lines
-set statusline+=\ %P    "percent through file
+set statusline+=%{&ff}]                         "file format
+set statusline+=%h                              "help file flag
+set statusline+=%m                              "modified flag
+set statusline+=%r                              "read only flag
+set statusline+=%y                              "filetype
+set statusline+=%=                              "left/right separator
+set statusline+=%c,                             "cursor column
+set statusline+=%l/%L                           "cursor line/total lines
+set statusline+=\ %P                            "percent through file
+set statusline+=\ %P                            "percent through file
+set statusline+=\ %{LinterStatus()}
 
 " Spaces as dots
 set list
@@ -163,7 +172,38 @@ let g:vimwiki_list = [{
 " Really Nice Colors
 set termguicolors
 
-let @r = 'dwxwxxi=hli wwxg$xx0dwiaws_secret kb_access_key j0dwxwxxi=kb =wxg$$xx0dwiaws_sesikbsskbion_token j0dwdd0dwxdwxiaws_access_key_id ülr=llxg$xj'
+" Python Stuff
+" Status Line Linter
+function! LinterStatus() abort
+  let l:counts = ale#statusline#Count(bufnr(''))
+
+  let l:all_errors = l:counts.error + l:counts.style_error
+  let l:all_non_errors = l:counts.total - l:all_errors
+
+  return l:counts.total == 0 ? '✨ all good ✨' : printf(
+        \   '😞 %dW %dE',
+        \   all_non_errors,
+        \   all_errors
+        \)
+endfunction
+
+" Ale stuff
+let g:ale_linters = {
+      \   'python': ['flake8', 'pylint'],
+      \}
+
+let g:ale_fixers = {
+      \    'python': ['yapf'],
+      \    'terraform': ['terraform'],
+      \    'json': ['jq'],
+      \    'yaml': ['yamlfix'],
+      \}
+
+nmap <F10> :ALEFix<CR>
+nmap <F11> :Pydocstring<CR>
+let g:ale_fix_on_save = 0
+
+" End Python Stuff
 
 "Set split options to open on the bottom right.
 set splitbelow
@@ -181,5 +221,5 @@ set scrolloff=15
 colorscheme dracula
 
 set expandtab
-set tabstop=2
+set tabstop=8
 set shiftwidth=2

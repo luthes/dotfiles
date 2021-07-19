@@ -10,19 +10,24 @@ Plug 'tpope/vim-commentary'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'godlygeek/tabular'
 Plug 'hashivim/vim-terraform'
-Plug 'dracula/vim'
+Plug 'dracula/vim', {'as':'dracula'}
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go'
-Plug 'numirias/semshi'
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'google/yapf'
 Plug 'dense-analysis/ale'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'arcticicestudio/nord-vim'
 call plug#end()
+" Make sure the pretty colors are loaded first
+" set t_Co=256
+" set background=dark
+let g:dracula_colorterm=0
+colorscheme dracula
+
 
 " Set encoding for the listchars
 set encoding=utf-8
@@ -123,22 +128,6 @@ vmap <Leader>p "+p
 vmap <Leader>P "+P
 
 
-" Status Line
-set statusline=^=%{coc#status()}                "tail of the filename
-set statusline=%t                               "tail of the filename
-set statusline+=[%{strlen(&fenc)?&fenc:'none'}, "file encoding
-set statusline+=%{&ff}]                         "file format
-set statusline+=%h                              "help file flag
-set statusline+=%m                              "modified flag
-set statusline+=%r                              "read only flag
-set statusline+=%y                              "filetype
-set statusline+=%=                              "left/right separator
-set statusline+=%c,                             "cursor column
-set statusline+=%l/%L                           "cursor line/total lines
-set statusline+=\ %P                            "percent through file
-set statusline+=\ %P                            "percent through file
-set statusline+=\ %{LinterStatus()}
-
 " Spaces as dots
 set list
 set listchars=
@@ -172,14 +161,14 @@ let g:vimwiki_list = [{
 "let g:vimwiki_list = [{'path': '~/markdown/',
 "                     \ 'syntax': 'markdown', 'ext': '.md'}]
 
-" Really Nice Colors
+" Status Line
 let g:airline_powerline_fonts=1
 let g:airline_theme='dracula'
 
 " Open NerdTree
 map <silent> <C-n> :NERDTreeFocus<CR>
 
-" Python Stuff
+" This might not be necessary with airline
 " Status Line Linter
 function! LinterStatus() abort
   let l:counts = ale#statusline#Count(bufnr(''))
@@ -217,14 +206,9 @@ set splitbelow
 set splitright
 syntax on
 set colorcolumn=80
-if $TERM == "xterm-256color"
-  set t_Co=256
-endif
 set ruler
 set number
-highlight LineNr ctermfg=46
 set scrolloff=15
-colorscheme dracula
 
 set expandtab
 set tabstop=8
